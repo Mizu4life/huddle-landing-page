@@ -1,0 +1,61 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+main{
+    background-image: url('./images/bg-hero-mobile.svg');
+    /* background-repeat: repeat; */
+}
+body p{
+    font-family: "Open Sans", "sans-serif";
+    font-size: 18px;
+}
+
+.mockups{
+    min-width: 360px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "poppins";
+}
+
+.content img{
+    padding: 4px;
+}
+.content p{
+    font-size: 16px;
+}
+
+.dark-cyan{
+    background-color: hsl(192, 100%, 9%);
+}
+.box{
+    position: absolute;
+    bottom: -60px;
+    z-index: 1;
+}
+footer img{
+    top: -30px;
+}
+ul li{
+    margin:15px;
+}
+i{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+i:hover{
+    border-color: hsl(322, 100%, 66%);
+}
+.copywrite{
+    font-size: 10px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 30px;
+}
+.attribution a {
+    color:  hsl(322, 100%, 66%);
+}
